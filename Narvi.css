@@ -1,0 +1,107 @@
+body{
+  background-color: whitesmoke;
+}
+/* Title */
+#titl p{
+  font-size: 30px;
+  color: white;
+  margin-left: 7%;  
+  padding-top: 15px;
+}
+#titl{
+  background-color:#4E8FDE;
+  height: 80px;
+  width: 101.5%;
+  margin-top: -2%;
+  margin-left:-0.6%;
+  border: whitesmoke 10px;
+}
+/* lINE 1 */
+#lin1{
+  background-color: #4E8FDE;
+  border: none;
+  margin: 0.1px;
+}
+/* LIST BAR */
+#bar{
+list-style: none;
+background-color:#4E8FDE;
+  height: 35px;
+  width: 101.5%;
+  margin-top: 0%;
+  margin-left:-0.6%;
+}
+#bar button{
+height: 30px;
+width: 156px;
+font-size: 15px;
+border: none;
+border-radius: 10px;
+background-color: transparent;
+margin-left: -2%;
+margin-right: 20px;
+color: white;
+}
+#bar button:hover{
+background-color:#318CE7;
+}
+/* Dispath Assistant */
+#d0{
+  background-color: white;
+  margin-left: 2.5%;
+  height: 170px;
+  width: 410px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+#d0 img{
+  height: 140px;
+  display: block;
+  margin-top: -60px;
+}
+ #d1,#d2,#d3{
+  display: flex;
+  padding-left: 170px;
+  margin-top: -60px;
+}
+#d3{
+  font-size:17px;
+}
+#d1,#d2{
+  font-size: 13.2px;
+}
+/* Optimize route */
+#or0{
+  height: 130px;
+  width: 410px;
+  margin-top: 20px;
+  display: flex;
+  margin-left: 2.5%;
+  border-radius: 10px;
+  font-size: 17px;
+  background-color: white;
+  border: none;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+#or2{
+  text-align: left;
+  padding-left: 8%;
+}
+#or1{
+  margin: -50px;
+  margin-left: 75px;
+  display: flex;
+  font-size: 18px;
+  height: 40px;
+  width: 185px;
+  align-items: center;
+  padding-left: 1.5%;
+  border-radius: 5px;
+  background-color:#4E8FDE;
+  color: white;
+  border: none;
+}
+#or1:hover{
+  background-color:#318CE7;
+}
