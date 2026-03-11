@@ -75,7 +75,7 @@ background-color:#318CE7;
 #or0{
   height: 130px;
   width: 410px;
-  margin-top: 20px;
+  margin-top: 10px;
   display: flex;
   margin-left: 2.5%;
   border-radius: 10px;
@@ -104,4 +104,28 @@ background-color:#318CE7;
 }
 #or1:hover{
   background-color:#318CE7;
+}
+/* Performance Chart */
+#pc1{
+  background-color:white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 370px;
+    height: 110px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    font-family: 'Arial', sans-serif;
+    margin: 10px;
+    margin-left: 2.5%;
+    margin-top: 70px;
+}
+#pc6{
+  border-left: 1px solid silver; 
+}
+#pc7{
+  width: 20%;
+  transform: rotate(90deg);
+}
+#pc5{
+  margin-left: 64%;
+  margin-top: -54px;
 }
