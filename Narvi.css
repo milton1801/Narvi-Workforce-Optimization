@@ -199,3 +199,51 @@ background-color:#318CE7;
 .dot.line {
   background: #f59e0b; /* CHANGE LINE COLOR */
 }
+/* Activity Driver */
+.activity-card {
+  background: white;
+  border-radius: 12px;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  padding: 20px;
+  width: 450px; /* Wider to show more detail */
+  margin-top: 20px;
+  font-family: sans-serif;
+  margin-left: 490px;
+  margin-top: 50px;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.status-tag {
+  background-color: #e3f2fd;
+  color: #1976d2;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+}
+
+.card-divider {
+  border: 0;
+  border-top: 1px solid #eee;
+  margin: 10px 0;
+}
+
+.activity-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #f9f9f9;
+  font-size: 0.9rem;
+}
+
+.driver-name { font-weight: 600; color: #444; }
+.activity-detail { color: #666; flex-grow: 1; margin-left: 15px; }
+.time-stamp { color: #999; font-size: 0.8rem; }
