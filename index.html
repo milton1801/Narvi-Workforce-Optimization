@@ -1,27 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="Narvi.css">
   <title>Narvi Workforce OPT</title>
 </head>
+
 <body>
   <!-- BAR PRINCIPAL -->
-  <div id="titl" >
-      <p id="on">Narvi Workforce Optimization</p>
+  <div id="titl">
+    <p id="on">Narvi Workforce Optimization</p>
   </div>
   <hr id="lin1">
   <!-- BAR LIST -->
   <ul id="bar">
-    <button><li>Dashboard</li></button>
-    <button><li>Dispatch Intelligence</li></button>
-    <button><li>Reports</li></button>
-    <button><li>Settings</li></button>
+    <button>
+      <li>Dashboard</li>
+    </button>
+    <button>
+      <li>Dispatch Intelligence</li>
+    </button>
+    <button>
+      <li>Reports</li>
+    </button>
+    <button>
+      <li>Settings</li>
+    </button>
   </ul>
   <!-- Dispatch Assistant -->
   <button id="d0">
-    <img src="https://img.freepik.com/free-vector/graident-ai-robot-vectorart_78370-4114.jpg?semt=ais_rp_progressive&w=740&q=80" alt="">
+    <img
+      src="https://img.freepik.com/free-vector/graident-ai-robot-vectorart_78370-4114.jpg?semt=ais_rp_progressive&w=740&q=80"
+      alt="">
     <p id="d1">
       Should I generate new driver routes?
     </p>
@@ -35,7 +47,7 @@
   <!-- OPTIMIZE ROUTE -->
   <button id="or0">
     <p id="or2"> I can optimize your routes for faster
-    delivery - should I generate a new route</p>
+      delivery - should I generate a new route</p>
     <button id="or1">Generate Routes</button>
   </button>
   <!-- PERFORMANCE CHART -->
@@ -46,54 +58,63 @@
     <hr id="pc6">
     <div id="pc3">
       On-Time Deliveries
-      <div id="pc4">%</div><hr id="pc7">
+      <div id="pc4">%</div>
+      <hr id="pc7">
     </div>
     <div id="pc5">
       Orders Completed
     </div>
     <!-- Dispatch Performance -->
-    <div id="dp"> 
-      <p>Dispatch Performance"</p></div>
-      <div class="chart-card">
-        <h3 class="chart-title">Dispatch Performance</h3>
-      
-        <div class="chart">
-          <div class="bar" style="--value: 90">Mon</div>
-          <div class="bar" style="--value: 75">Tue</div>
-          <div class="bar" style="--value: 80">Wed</div>
-          <div class="bar" style="--value: 85">Thu</div>
-          <div class="bar" style="--value: 88">Fri</div>
-          <div class="bar highlight" style="--value: 92">Sat</div>
-        </div>
-      
-        <div class="chart-legend">
-          <span class="dot bars"></span> On-Time Deliveries
-          <span class="dot line"></span> Performance Trend
-        </div>
+    <div id="dp">
+      <p>Dispatch Performance"</p>
+    </div>
+    <div class="chart-card">
+      <h3 class="chart-title">Dispatch Performance</h3>
+
+      <div class="chart">
+        <div class="bar" style="--value: 90">Mon</div>
+        <div class="bar" style="--value: 75">Tue</div>
+        <div class="bar" style="--value: 80">Wed</div>
+        <div class="bar" style="--value: 85">Thu</div>
+        <div class="bar" style="--value: 88">Fri</div>
+        <div class="bar highlight" style="--value: 92">Sat</div>
       </div>
 
+      <div class="chart-legend">
+        <span class="dot bars"></span> On-Time Deliveries
+        <span class="dot line"></span> Performance Trend
+      </div>
     </div>
+
+  </div>
   </div>
   <!-- Activity Driver -->
   <div class="activity-card">
     <div class="card-header">
-        <span>Recent Dispatch Activity</span>
-        <span class="status-tag">Live</span>
+      <span>Recent Dispatch Activity</span>
+      <span class="status-tag">Live</span>
     </div>
     <hr class="card-divider">
     <div class="activity-item">
-        <span class="driver-name">Driver #1042</span>
-        <span class="activity-detail">Route Optimized by AI</span>
-        <span class="time-stamp">2 mins ago</span>
+      <span class="driver-name">Driver #1042</span>
+      <span class="activity-detail">Route Optimized by AI</span>
+      <span class="time-stamp">2 mins ago</span>
     </div>
     <div class="activity-item">
-        <span class="driver-name">Driver #1038</span>
-        <span class="activity-detail">Delivery Completed</span>
-        <span class="time-stamp">15 mins ago</span>
+      <span class="driver-name">Driver #1038</span>
+      <span class="activity-detail">Delivery Completed</span>
+      <span class="time-stamp">15 mins ago</span>
     </div>
-</div>
-  <div>
+    <div class="activity-item">
+      <span class="driver-name">Driver #1022</span>
+      <span class="activity-detail">Delivery Completed</span>
+      <span class="time-stamp">19 mins ago</span>
+    </div>
+  </div>
+  <!--  MAP NARVI -->
+  <div id="mn">
+    <div class="map-container">
+      <img src="map.png" style="width:500px; height:332px; object-fit:cover;" id="mphoto">
+    </div>
 
   </div>
-</body>
-</html>

@@ -206,7 +206,7 @@ background-color:#318CE7;
   border: 1px solid #e0e0e0;
   box-shadow: 0 4px 12px rgba(0,0,0,0.08);
   padding: 20px;
-  width: 450px; /* Wider to show more detail */
+  width: 462px; /* Wider to show more detail */
   margin-top: 20px;
   font-family: sans-serif;
   margin-left: 490px;
@@ -247,3 +247,10 @@ background-color:#318CE7;
 .driver-name { font-weight: 600; color: #444; }
 .activity-detail { color: #666; flex-grow: 1; margin-left: 15px; }
 .time-stamp { color: #999; font-size: 0.8rem; }
+/* MAP */
+#mn img{
+  margin-left: 33%;
+  margin-top: -532px;
+  display: flex;
+  border-radius: 5px;
+}
