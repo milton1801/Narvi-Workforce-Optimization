@@ -47,13 +47,13 @@ background-color:#318CE7;
 }
 /* Dispath Assistant */
 #d0{
-  background-color: white;
   margin-left: 2.5%;
   height: 170px;
   width: 410px;
-  border-radius: 10px;
-  border: none;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  background: white;
+  border-radius: 12px;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08)
 }
 #d0 img{
   height: 140px;
@@ -80,9 +80,10 @@ background-color:#318CE7;
   margin-left: 2.5%;
   border-radius: 10px;
   font-size: 17px;
-  background-color: white;
-  border: none;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  background: white;
+  border-radius: 12px;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08)
 }
 #or2{
   text-align: left;
@@ -107,16 +108,17 @@ background-color:#318CE7;
 }
 /* Performance Chart */
 #pc1{
-  background-color:white;
-    border-radius: 10px;
     padding: 20px;
     width: 370px;
     height: 110px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
     font-family: 'Arial', sans-serif;
     margin: 10px;
     margin-left: 2.5%;
     margin-top: 70px;
+    background: white;
+    border-radius: 12px;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08)
 }
 #pc6{
   border-left: 1px solid silver; 
@@ -131,10 +133,12 @@ background-color:#318CE7;
 }
 /* Dispatch Performance */
 .chart-card {
-  background: #ffffff; /* CHANGE CARD BACKGROUND */
-  border-radius: 14px;
-  padding: 20px;
+  background: white;
+  border-radius: 12px;
+  border: 1px solid #e0e0e0;
   box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  padding: 20px;
+  width: 410px;
   width: 370px;
   padding-top: 5px;
   margin-left: -20PX;
@@ -206,11 +210,11 @@ background-color:#318CE7;
   border: 1px solid #e0e0e0;
   box-shadow: 0 4px 12px rgba(0,0,0,0.08);
   padding: 20px;
-  width: 462px; /* Wider to show more detail */
+  width: 458px; /* Wider to show more detail */
   margin-top: 20px;
   font-family: sans-serif;
   margin-left: 490px;
-  margin-top: 50px;
+  margin-top: 62px;
 }
 
 .card-header {
@@ -250,7 +254,48 @@ background-color:#318CE7;
 /* MAP */
 #mn img{
   margin-left: 33%;
-  margin-top: -532px;
+  margin-top: -545px;
   display: flex;
-  border-radius: 5px;
+  border-radius: 12px;
+}
+/* AI dispatch Assistant */
+#disA{
+  background: white;
+  border-radius: 12px;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  padding: 20px;
+  width: 465px; /* Wider to show more detail */
+  margin-top: 20px;
+  font-family: sans-serif;
+  margin-left: 490px;
+  margin-top: -524px;
+  height: 125px;
+  padding-right: 10px;
+}
+#disA2,#disA3{
+  list-style: none;
+  display: flex;
+}
+#disA2{
+  margin-left: 0px;
+}
+#disA2 li{
+margin-right: 54px;
+font-size: 13px;
+ }
+ #disA3{
+  margin-left: 15px;
+ }
+#disA3 li{
+  margin-right: 142px;
+}
+.card-divider2 {
+  border: 0;
+  border-top: 1px solid #eee;
+  margin: 1px 0;
+  width: 90px;
+  margin-top:28px;
+  transform: rotate(90deg);
+  margin-left: -80px;
 }
