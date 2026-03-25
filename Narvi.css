@@ -299,3 +299,49 @@ font-size: 13px;
   transform: rotate(90deg);
   margin-left: -80px;
 }
+/* Active Driver */
+#ac{
+  background: white;
+  border-radius: 12px;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  padding: 20px;
+  width: 305px;
+  margin-top: 20px;
+  font-family: sans-serif;
+  height: 125px;
+  padding-right: 10px;
+  margin-left: 69%;
+  margin-top: -166px;
+  width: 390px;
+}
+/* Productivy Insights */
+#pi{
+  background: white;
+  border-radius: 12px;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  padding: 20px;
+  width: 305px;
+  font-family: sans-serif;
+  height: 125px;
+  padding-right: 10px;
+  margin-left: 69%;
+  margin-top: 8px;
+  width: 390px;
+}
+/* Driver Performance Details*/
+#dpd{
+  background: white;
+  border-radius: 12px;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  padding: 20px;
+  width: 305px;
+  font-family: sans-serif;
+  height: 330px;
+  padding-right: 10px;
+  margin-left: 69%;
+  margin-top: 8px;
+  width: 390px;
+}
