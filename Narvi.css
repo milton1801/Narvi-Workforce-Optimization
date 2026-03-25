@@ -345,3 +345,53 @@ font-size: 13px;
   margin-top: 8px;
   width: 390px;
 }
+/* ----THIRD ROW--------- */
+/* Stats Row Styling */
+.status-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.status-dot {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #3b82f6; /* Blue */
+    display: inline-block;
+}
+
+/* Score Circle Styling */
+.score-circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #e8f5e9; /* Light Green */
+    color: #2e7d32; /* Dark Green */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    border: 2px solid #a5d6a7;
+}
+
+/* Driver Profile Flex */
+.driver-profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+/* Buttons */
+.send-message-btn {
+    width: 100%;
+    background: linear-gradient(to right, #5c7cfa, #3b82f6);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 10px;
+    cursor: pointer;
+}
